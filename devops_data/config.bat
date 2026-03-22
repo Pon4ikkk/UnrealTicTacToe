@@ -8,7 +8,7 @@
 
 rem Unreal Engine params
 ::set EnginePath_4=C:\Epic Games\UE Binary\UE_4.27
-set EnginePath=C:\Epic Games\UE Binary\UE_5.4
+set EnginePath=C:\Program Files\Epic Games\UE_5.4
 set VersionSelector=C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealVersionSelector.exe
 rem Editor path (Note: path for UE4: "..\UE4Editor.exe")
 set EditorPath=%EnginePath%\Engine\Binaries\Win64\UnrealEditor.exe
@@ -43,9 +43,9 @@ set ClientExePath=%ProjectRoot%\Build\WindowsClient\%ProjectPureName%Client.exe
 set GameExePath=%ProjectRoot%\Build\Windows\%ProjectPureName%.exe
 
 rem Tests
-set TestNames=
+set TestNames=TicTacToe
 set TestOutputLogPath=%ProjectRoot%\Build\Tests\Tests.log
 set ReportOutputPath=%ProjectRoot%\Build\Tests
 set ExludedPathForTestReport=%SourceCodePath%\%ProjectPureName%\Tests
-set UEAutomationContentPath=%EnginePath%\Engine\Content\Automation
+set UEAutomationContentPath=C:\Program Files\Epic Games\UE_5.4\Engine\Content\Automation
 set OpenCPPCoveragePath=C:\Program Files\OpenCppCoverage\OpenCppCoverage.exe
